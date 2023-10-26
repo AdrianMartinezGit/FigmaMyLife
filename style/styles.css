@@ -3,6 +3,7 @@ body {
 }
 
 .header-div {
+    position: fixed;
     padding-top: 19px;
     padding-left: 19px;
     padding-right: 38px;
@@ -30,6 +31,14 @@ body {
     padding: 0;
     background-color: #484848;
     height: 60px;
+}
+
+.accomplish-card-div {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    width: 100px;
+    height: 700px;
 }
 
 a {
