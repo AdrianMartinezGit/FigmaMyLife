@@ -3,10 +3,9 @@ body {
 }
 
 .header-div {
-    position: fixed;
     padding-top: 19px;
     padding-left: 19px;
-    padding-right: 38px;
+    padding-right: 19px;
 }
 
 .header-paddingless-div {
