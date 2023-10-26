@@ -1,20 +1,46 @@
 body {
     background-color: #DFD7CC;
 }
-.navbar-color {
-    --bs-bg-opacity: 1;
-    background-color: #484848;
+
+.header-div {
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-right: 38px;
 }
 
-.navbar-text-color {
+.header-paddingless-div {
+    padding: 0;
+}
+
+.header-padding-div {
+    padding: 19px;
+}
+
+.header-aboutme-text {
+    font-size: 160px;
+    font-weight: 100px;
+    color: black;
+}
+
+.header-description-text {
+    font-size: 36px;
+}
+
+.header-navbar-div {
+    padding: 0;
+    background-color: #484848;
+    height: 60px;
+}
+
+a {
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
     color: #7795FF;
 }
-
-.profile-image {
-    margin-top: 18px;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
+a:active {
+    color:#9ad1ff;
 }
